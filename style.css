@@ -1,0 +1,28 @@
+
+
+#card-list{
+    display: flex;
+    margin: 10px;
+    /* gap: 30px; */
+	justify-content:space-evenly;
+	text-align:left;
+}
+.cards{
+	box-shadow: 2px 2px 10px rgba(103,0,153,0.09);
+	background-color:white;
+	padding:30px;
+	width:20%;
+}
+.head{
+	margin-top:20px;
+    font-weight: 900;
+	font-size:19px;
+
+}
+.para1, .para2{
+	display:flex;
+	font-size:16px;
+}
+.cards i{
+	font-size:30px;
+}
